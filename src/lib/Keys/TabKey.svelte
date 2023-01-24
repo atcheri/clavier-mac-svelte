@@ -3,5 +3,7 @@
 </script>
 
 <BaseKey>
-  <div class="flex justify-start items-end h-[50px] w-[70px] ml-1">tab</div>
+  <div class="text-xs flex justify-start items-end h-[50px] w-[70px] ml-1">
+    tab
+  </div>
 </BaseKey>
