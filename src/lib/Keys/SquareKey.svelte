@@ -2,7 +2,7 @@
   import BaseKey from "./BaseKey.svelte";
 
   export let up: string;
-  export let down: string;
+  export let down: string = "";
 </script>
 
 <BaseKey>

@@ -1,6 +1,7 @@
 <script lang="ts">
   import Row1 from "./Row1.svelte";
   import Row2 from "./Row2.svelte";
+  import Row3 from "./Row3.svelte";
 </script>
 
 <div
@@ -15,4 +16,5 @@
 >
   <Row1 />
   <Row2 />
+  <Row3 />
 </div>
