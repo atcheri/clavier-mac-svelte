@@ -6,7 +6,7 @@
 
 <BaseKey>
   <div
-    class="flex justify-center items-end h-[23px] w-[48px] p-0 text-xs tracking-tighter"
+    class="flex justify-center items-end h-[35px] w-[60px] p-0 text-xs tracking-tighter"
   >
     F{index}
   </div>

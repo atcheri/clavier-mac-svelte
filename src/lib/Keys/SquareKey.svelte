@@ -6,7 +6,7 @@
 </script>
 
 <BaseKey>
-  <div class="flex flex-col justify-center items-center h-[45px] w-[45px]">
+  <div class="flex flex-col justify-center items-center h-[50px] w-[50px] m-1">
     <span>{up}</span>
     <span>{down}</span>
   </div>

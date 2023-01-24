@@ -3,7 +3,5 @@
 </script>
 
 <BaseKey>
-  <div
-    class="flex justify-start items-center h-[23px] w-[23px] pl-1 text-xs tracking-tighter"
-  />
+  <div class="w-[35px]" />
 </BaseKey>

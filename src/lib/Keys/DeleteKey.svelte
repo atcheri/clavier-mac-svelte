@@ -3,5 +3,5 @@
 </script>
 
 <BaseKey>
-  <div class="flex justify-end items-end h-[45px] w-[70px] mr-1">delete</div>
+  <div class="flex justify-end items-end h-[50px] w-[70px] mr-1">delete</div>
 </BaseKey>
