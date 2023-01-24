@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Keyboard from "./lib/Keyboard.svelte";
 </script>
 
 <main
@@ -6,6 +7,7 @@
 >
   <h1>Virtual Mac-book Pro keyboard</h1>
   <h2>Made with Svelte and Tailwindcss in TS</h2>
+  <Keyboard />
 </main>
 
 <style>
