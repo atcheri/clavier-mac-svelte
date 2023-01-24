@@ -4,6 +4,7 @@
   import Row3 from "./Row3.svelte";
   import Row4 from "./Row4.svelte";
   import Row5 from "./Row5.svelte";
+  import Row6 from "./Row6.svelte";
 </script>
 
 <div
@@ -11,7 +12,7 @@
   text-white
   border-solid border-[1px] border-gray-900 
   shadow-[inset_0_2px_2px_0_rgba(0,0,0,0.6),2px_0_2px_0_rgba(0,0,0,0.6),-2px_2px_2px_0_rgba(0,0,0,0.6),0_-2px_2px_0_rgba(0,0,0,0.6)]
-  w-[900px] h-[330px]
+  w-[900px]
   mt-3
   rounded-xl
   "
@@ -21,4 +22,5 @@
   <Row3 />
   <Row4 />
   <Row5 />
+  <Row6 />
 </div>
