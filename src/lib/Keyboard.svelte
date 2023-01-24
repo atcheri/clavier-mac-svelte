@@ -3,6 +3,7 @@
   import Row2 from "./Row2.svelte";
   import Row3 from "./Row3.svelte";
   import Row4 from "./Row4.svelte";
+  import Row5 from "./Row5.svelte";
 </script>
 
 <div
@@ -19,4 +20,5 @@
   <Row2 />
   <Row3 />
   <Row4 />
+  <Row5 />
 </div>
