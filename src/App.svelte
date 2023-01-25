@@ -9,7 +9,7 @@
 
   const onDelete = () => {
     sentence.update((prev) => {
-      if (prev.length) {
+      if (!prev.length) {
         return prev;
       }
 
