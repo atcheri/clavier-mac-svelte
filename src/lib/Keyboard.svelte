@@ -5,6 +5,11 @@
   import Row4 from "./Row4.svelte";
   import Row5 from "./Row5.svelte";
   import Row6 from "./Row6.svelte";
+
+  export let onDelete: () => void;
+  export let onLetter: (letter: string) => void;
+  export let onReturn: () => void;
+  export let onSpace: () => void;
 </script>
 
 <div
@@ -18,9 +23,9 @@
   "
 >
   <Row1 />
-  <Row2 />
-  <Row3 />
-  <Row4 />
-  <Row5 />
-  <Row6 />
+  <Row2 {onDelete} />
+  <Row3 {onLetter} />
+  <Row4 {onLetter} {onReturn} />
+  <Row5 {onLetter} />
+  <Row6 {onSpace} />
 </div>

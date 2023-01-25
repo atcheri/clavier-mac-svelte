@@ -1,21 +1,24 @@
 <script lang="ts">
-  import SquareKey from "./Keys/SquareKey.svelte";
+  import LetterKey from "./Keys/LetterKey.svelte";
   import CapsKey from "./Keys/CapsKey.svelte";
   import ReturnKey from "./Keys/ReturnKey.svelte";
+
+  export let onLetter: (letter: string) => void;
+  export let onReturn: () => void;
 </script>
 
 <div class="flex justify-around m-2">
   <CapsKey />
-  <SquareKey up="A" />
-  <SquareKey up="S" />
-  <SquareKey up="D" />
-  <SquareKey up="F" />
-  <SquareKey up="G" />
-  <SquareKey up="H" />
-  <SquareKey up="J" />
-  <SquareKey up="K" />
-  <SquareKey up="L" />
-  <SquareKey up=":" down=";" />
-  <SquareKey up={'"'} down="'" />
-  <ReturnKey />
+  <LetterKey letter="A" {onLetter} />
+  <LetterKey letter="S" {onLetter} />
+  <LetterKey letter="D" {onLetter} />
+  <LetterKey letter="F" {onLetter} />
+  <LetterKey letter="G" {onLetter} />
+  <LetterKey letter="H" {onLetter} />
+  <LetterKey letter="J" {onLetter} />
+  <LetterKey letter="K" {onLetter} />
+  <LetterKey letter="L" {onLetter} />
+  <LetterKey letter=":" down=";" />
+  <LetterKey letter={'"'} down="'" />
+  <ReturnKey {onReturn} />
 </div>

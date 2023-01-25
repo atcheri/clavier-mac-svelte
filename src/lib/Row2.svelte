@@ -1,6 +1,8 @@
 <script lang="ts">
   import SquareKey from "./Keys/SquareKey.svelte";
   import DeleteKey from "./Keys/DeleteKey.svelte";
+
+  export let onDelete: () => void;
 </script>
 
 <div class="flex justify-around m-2">
@@ -17,5 +19,5 @@
   <SquareKey up=")" down="0" />
   <SquareKey up="-" down="_" />
   <SquareKey up="=" down="+" />
-  <DeleteKey />
+  <DeleteKey {onDelete} />
 </div>

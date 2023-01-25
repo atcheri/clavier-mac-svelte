@@ -7,6 +7,8 @@
   import OptLeftKey from "./Keys/OptLeftKey.svelte";
   import OptRightKey from "./Keys/OptRightKey.svelte";
   import SpaceKey from "./Keys/SpaceKey.svelte";
+
+  export let onSpace: () => void;
 </script>
 
 <div class="flex justify-around m-2">
@@ -14,7 +16,7 @@
   <CtrlKey />
   <OptLeftKey />
   <CmdLeftKey />
-  <SpaceKey />
+  <SpaceKey {onSpace} />
   <CmdRightKey />
   <OptRightKey />
   <ArrowKeys />
